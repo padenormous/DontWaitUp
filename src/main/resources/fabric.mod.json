@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "dontwaitup",
+	"version": "${version}",
+	"name": "Don't Wait Up",
+	"description": "Allows one player sleeping to skip the night for all players on the server.",
+	"authors": [
+		"Paden0rmous"
+	],
+	"contact": {
+		"homepage": "https://example.com/",
+		"sources": "https://github.com/yourusername/dontwaitup"
+	},
+	"license": "MIT",
+	"icon": "assets/dont-wait-up/DontWaitUp.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			{
+				"adapter": "kotlin",
+				"value": "paden.modid.DontWaitUp"
+			}
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "1.21.1",
+		"java": ">=17",
+		"fabric-language-kotlin": ">=1.12.2+kotlin.2.0.20"
+	}
+}
